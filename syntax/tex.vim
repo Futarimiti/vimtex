@@ -16,7 +16,7 @@ let s:is_loading = 1
 
 " Syntax may be loaded without the main VimTeX functionality, thus we need to
 " ensure that the options are loaded!
-" call vimtex#options#init()
+call vimtex#options#init()
 
 " Load core syntax and highlighting rules (does not depend on VimTeX state)
 call vimtex#syntax#core#init_options()
